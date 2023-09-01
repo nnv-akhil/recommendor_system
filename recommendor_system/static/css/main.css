@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+}
+
+.pro {
+    background-color: #fff; 
+    width: 200px; 
+    height: 270px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: #0059b3;
+  }
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 5px;
+}
+
+.special {
+    width: 300px;
+    height: 80vh;
+    background-color: #fff; /* Just for visibility */
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.content {
+    margin-left: 95px;
+}
+
+.bt {
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.like {
+    margin-top: 80px;
+    background-color: #1E90FF;
+}
+
+.add_to_cart {
+    background-color: #FF8C00;
+}
+
+.buy_now {
+    background-color: #FFD700;
+}
+
+.save_for_later {
+    background-color: #FF4500;
+}
+
+.pro-img {
+    width: 65%;
+    height: 50%;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+h1.special-h1 {
+    margin-top: 30px;
+    margin-left: 10px;
+} 
+
+p.special-p {
+    margin-left: 28px;
+}
+
+.special-img {
+    margin-top: 30px;
+    width: 85%;
+    margin-left: 23px;
+    border-radius: 5px;
+}
+ 
+h1 {
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 17px;
+    margin-left: 75px;
+}
+
+
+
+.close-btn {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 7px;
+}
