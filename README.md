@@ -1,1 +1,1 @@
-# recommendor_system
+- Download the recommendor_system folder and run app.py file
